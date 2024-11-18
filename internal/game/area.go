@@ -1,8 +1,8 @@
 package game
 
 import (
-	"github.com/hectorgimenez/d2go/pkg/data"
-	"github.com/hectorgimenez/d2go/pkg/data/area"
+	"github.com/BFMVAUS/d2go/pkg/data"
+	"github.com/BFMVAUS/d2go/pkg/data/area"
 )
 
 type AreaData struct {

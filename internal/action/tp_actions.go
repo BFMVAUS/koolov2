@@ -4,12 +4,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/hectorgimenez/d2go/pkg/data"
-	"github.com/hectorgimenez/d2go/pkg/data/object"
-	"github.com/hectorgimenez/koolo/internal/action/step"
-	"github.com/hectorgimenez/koolo/internal/context"
-	"github.com/hectorgimenez/koolo/internal/town"
-	"github.com/hectorgimenez/koolo/internal/utils"
+	"github.com/BFMVAUS/d2go/pkg/data"
+	"github.com/BFMVAUS/d2go/pkg/data/object"
+	"github.com/BFMVAUS/koolov2/internal/action/step"
+	"github.com/BFMVAUS/koolov2/internal/context"
+	"github.com/BFMVAUS/koolov2/internal/town"
+	"github.com/BFMVAUS/koolov2/internal/utils"
 )
 
 func ReturnTown() error {

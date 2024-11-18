@@ -3,14 +3,14 @@ package run
 import (
 	"errors"
 
-	"github.com/hectorgimenez/d2go/pkg/data"
-	"github.com/hectorgimenez/d2go/pkg/data/area"
-	"github.com/hectorgimenez/d2go/pkg/data/npc"
-	"github.com/hectorgimenez/d2go/pkg/data/stat"
-	"github.com/hectorgimenez/koolo/internal/action"
-	"github.com/hectorgimenez/koolo/internal/config"
-	"github.com/hectorgimenez/koolo/internal/context"
-	"github.com/hectorgimenez/koolo/internal/game"
+	"github.com/BFMVAUS/d2go/pkg/data"
+	"github.com/BFMVAUS/d2go/pkg/data/area"
+	"github.com/BFMVAUS/d2go/pkg/data/npc"
+	"github.com/BFMVAUS/d2go/pkg/data/stat"
+	"github.com/BFMVAUS/koolov2/internal/action"
+	"github.com/BFMVAUS/koolov2/internal/config"
+	"github.com/BFMVAUS/koolov2/internal/context"
+	"github.com/BFMVAUS/koolov2/internal/game"
 )
 
 type Eldritch struct {

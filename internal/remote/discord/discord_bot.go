@@ -6,9 +6,9 @@ import (
 	"slices"
 	"strings"
 
+	"github.com/BFMVAUS/koolov2/internal/bot"
+	"github.com/BFMVAUS/koolov2/internal/config"
 	"github.com/bwmarrin/discordgo"
-	"github.com/hectorgimenez/koolo/internal/bot"
-	"github.com/hectorgimenez/koolo/internal/config"
 )
 
 type Bot struct {

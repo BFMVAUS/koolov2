@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"slices"
 
-	"github.com/hectorgimenez/d2go/pkg/data"
-	"github.com/hectorgimenez/d2go/pkg/data/area"
-	"github.com/hectorgimenez/koolo/internal/action"
-	"github.com/hectorgimenez/koolo/internal/context"
+	"github.com/BFMVAUS/d2go/pkg/data"
+	"github.com/BFMVAUS/d2go/pkg/data/area"
+	"github.com/BFMVAUS/koolov2/internal/action"
+	"github.com/BFMVAUS/koolov2/internal/context"
 )
 
 type TerrorZone struct {

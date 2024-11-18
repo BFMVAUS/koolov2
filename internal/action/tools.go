@@ -1,11 +1,11 @@
 package action
 
 import (
-	"github.com/hectorgimenez/d2go/pkg/data"
-	"github.com/hectorgimenez/d2go/pkg/data/npc"
-	"github.com/hectorgimenez/koolo/internal/action/step"
-	"github.com/hectorgimenez/koolo/internal/context"
-	"github.com/hectorgimenez/koolo/internal/utils"
+	"github.com/BFMVAUS/d2go/pkg/data"
+	"github.com/BFMVAUS/d2go/pkg/data/npc"
+	"github.com/BFMVAUS/koolov2/internal/action/step"
+	"github.com/BFMVAUS/koolov2/internal/context"
+	"github.com/BFMVAUS/koolov2/internal/utils"
 )
 
 func OpenTPIfLeader() error {

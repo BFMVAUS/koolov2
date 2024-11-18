@@ -1,8 +1,8 @@
 package pather
 
 import (
-	"github.com/hectorgimenez/d2go/pkg/data"
-	"github.com/hectorgimenez/koolo/internal/game"
+	"github.com/BFMVAUS/d2go/pkg/data"
+	"github.com/BFMVAUS/koolov2/internal/game"
 )
 
 type Path []data.Position

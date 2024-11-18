@@ -5,8 +5,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/hectorgimenez/d2go/pkg/data"
-	"github.com/hectorgimenez/koolo/internal/game"
+	"github.com/BFMVAUS/d2go/pkg/data"
+	"github.com/BFMVAUS/koolov2/internal/game"
 )
 
 func BenchmarkAstar(b *testing.B) {

@@ -1,7 +1,7 @@
 package event
 
 import (
-	"github.com/hectorgimenez/d2go/pkg/data"
+	"github.com/BFMVAUS/d2go/pkg/data"
 )
 
 const (

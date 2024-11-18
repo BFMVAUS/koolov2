@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/BFMVAUS/koolov2/internal/bot"
 	"github.com/bwmarrin/discordgo"
-	"github.com/hectorgimenez/koolo/internal/bot"
 )
 
 func (b *Bot) supervisorExists(supervisor string) bool {

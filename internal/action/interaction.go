@@ -3,13 +3,13 @@ package action
 import (
 	"fmt"
 
-	"github.com/hectorgimenez/d2go/pkg/data"
-	"github.com/hectorgimenez/d2go/pkg/data/area"
-	"github.com/hectorgimenez/d2go/pkg/data/npc"
-	"github.com/hectorgimenez/koolo/internal/action/step"
-	"github.com/hectorgimenez/koolo/internal/context"
-	"github.com/hectorgimenez/koolo/internal/event"
-	"github.com/hectorgimenez/koolo/internal/game"
+	"github.com/BFMVAUS/d2go/pkg/data"
+	"github.com/BFMVAUS/d2go/pkg/data/area"
+	"github.com/BFMVAUS/d2go/pkg/data/npc"
+	"github.com/BFMVAUS/koolov2/internal/action/step"
+	"github.com/BFMVAUS/koolov2/internal/context"
+	"github.com/BFMVAUS/koolov2/internal/event"
+	"github.com/BFMVAUS/koolov2/internal/game"
 )
 
 func InteractNPC(npc npc.ID) error {

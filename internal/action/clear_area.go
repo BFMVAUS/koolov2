@@ -3,11 +3,11 @@ package action
 import (
 	"fmt"
 
-	"github.com/hectorgimenez/d2go/pkg/data"
-	"github.com/hectorgimenez/koolo/internal/action/step"
-	"github.com/hectorgimenez/koolo/internal/context"
-	"github.com/hectorgimenez/koolo/internal/game"
-	"github.com/hectorgimenez/koolo/internal/pather"
+	"github.com/BFMVAUS/d2go/pkg/data"
+	"github.com/BFMVAUS/koolov2/internal/action/step"
+	"github.com/BFMVAUS/koolov2/internal/context"
+	"github.com/BFMVAUS/koolov2/internal/game"
+	"github.com/BFMVAUS/koolov2/internal/pather"
 )
 
 func ClearAreaAroundPlayer(radius int, filter data.MonsterFilter) error {

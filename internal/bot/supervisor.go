@@ -8,11 +8,11 @@ import (
 	"strings"
 	"time"
 
-	ct "github.com/hectorgimenez/koolo/internal/context"
-	"github.com/hectorgimenez/koolo/internal/event"
-	"github.com/hectorgimenez/koolo/internal/game"
-	"github.com/hectorgimenez/koolo/internal/run"
-	"github.com/hectorgimenez/koolo/internal/utils/winproc"
+	ct "github.com/BFMVAUS/koolov2/internal/context"
+	"github.com/BFMVAUS/koolov2/internal/event"
+	"github.com/BFMVAUS/koolov2/internal/game"
+	"github.com/BFMVAUS/koolov2/internal/run"
+	"github.com/BFMVAUS/koolov2/internal/utils/winproc"
 	"github.com/lxn/win"
 )
 

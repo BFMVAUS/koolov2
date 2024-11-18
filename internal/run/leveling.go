@@ -1,8 +1,8 @@
 package run
 
 import (
-	"github.com/hectorgimenez/koolo/internal/config"
-	"github.com/hectorgimenez/koolo/internal/context"
+	"github.com/BFMVAUS/koolov2/internal/config"
+	"github.com/BFMVAUS/koolov2/internal/context"
 )
 
 type Leveling struct {

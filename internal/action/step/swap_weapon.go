@@ -3,8 +3,8 @@ package step
 import (
 	"time"
 
-	"github.com/hectorgimenez/d2go/pkg/data/skill"
-	"github.com/hectorgimenez/koolo/internal/context"
+	"github.com/BFMVAUS/d2go/pkg/data/skill"
+	"github.com/BFMVAUS/koolov2/internal/context"
 )
 
 func SwapToMainWeapon() error {

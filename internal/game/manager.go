@@ -9,10 +9,10 @@ import (
 	"time"
 	"unsafe"
 
+	"github.com/BFMVAUS/d2go/pkg/data/difficulty"
+	"github.com/BFMVAUS/koolov2/internal/config"
+	"github.com/BFMVAUS/koolov2/internal/utils"
 	"github.com/billgraziano/dpapi"
-	"github.com/hectorgimenez/d2go/pkg/data/difficulty"
-	"github.com/hectorgimenez/koolo/internal/config"
-	"github.com/hectorgimenez/koolo/internal/utils"
 	"github.com/lxn/win"
 	"golang.org/x/sys/windows"
 	"golang.org/x/sys/windows/registry"

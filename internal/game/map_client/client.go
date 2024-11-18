@@ -7,12 +7,12 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/hectorgimenez/d2go/pkg/data"
-	"github.com/hectorgimenez/d2go/pkg/data/area"
-	"github.com/hectorgimenez/d2go/pkg/data/difficulty"
-	"github.com/hectorgimenez/d2go/pkg/data/npc"
-	"github.com/hectorgimenez/d2go/pkg/data/object"
-	"github.com/hectorgimenez/koolo/internal/config"
+	"github.com/BFMVAUS/d2go/pkg/data"
+	"github.com/BFMVAUS/d2go/pkg/data/area"
+	"github.com/BFMVAUS/d2go/pkg/data/difficulty"
+	"github.com/BFMVAUS/d2go/pkg/data/npc"
+	"github.com/BFMVAUS/d2go/pkg/data/object"
+	"github.com/BFMVAUS/koolov2/internal/config"
 )
 
 func GetMapData(seed string, difficulty difficulty.Difficulty) (MapData, error) {

@@ -5,9 +5,9 @@ import (
 	"log/slog"
 	"strings"
 
-	"github.com/hectorgimenez/d2go/pkg/data"
-	"github.com/hectorgimenez/koolo/internal/event"
-	"github.com/hectorgimenez/koolo/internal/game"
+	"github.com/BFMVAUS/d2go/pkg/data"
+	"github.com/BFMVAUS/koolov2/internal/event"
+	"github.com/BFMVAUS/koolov2/internal/game"
 )
 
 type BeltManager struct {

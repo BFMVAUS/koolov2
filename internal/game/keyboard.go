@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/hectorgimenez/d2go/pkg/data"
-	"github.com/hectorgimenez/koolo/internal/utils/winproc"
+	"github.com/BFMVAUS/d2go/pkg/data"
+	"github.com/BFMVAUS/koolov2/internal/utils/winproc"
 	"github.com/lxn/win"
 )
 

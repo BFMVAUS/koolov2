@@ -1,10 +1,10 @@
 package action
 
 import (
-	"github.com/hectorgimenez/koolo/internal/context"
-	"github.com/hectorgimenez/koolo/internal/game"
-	"github.com/hectorgimenez/koolo/internal/ui"
-	"github.com/hectorgimenez/koolo/internal/utils"
+	"github.com/BFMVAUS/koolov2/internal/context"
+	"github.com/BFMVAUS/koolov2/internal/game"
+	"github.com/BFMVAUS/koolov2/internal/ui"
+	"github.com/BFMVAUS/koolov2/internal/utils"
 )
 
 func SwitchToLegacyMode() {

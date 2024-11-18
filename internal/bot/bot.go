@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/hectorgimenez/d2go/pkg/data"
-	"github.com/hectorgimenez/koolo/internal/action"
-	botCtx "github.com/hectorgimenez/koolo/internal/context"
-	"github.com/hectorgimenez/koolo/internal/event"
-	"github.com/hectorgimenez/koolo/internal/health"
-	"github.com/hectorgimenez/koolo/internal/run"
+	"github.com/BFMVAUS/d2go/pkg/data"
+	"github.com/BFMVAUS/koolov2/internal/action"
+	botCtx "github.com/BFMVAUS/koolov2/internal/context"
+	"github.com/BFMVAUS/koolov2/internal/event"
+	"github.com/BFMVAUS/koolov2/internal/health"
+	"github.com/BFMVAUS/koolov2/internal/run"
 	"golang.org/x/sync/errgroup"
 )
 

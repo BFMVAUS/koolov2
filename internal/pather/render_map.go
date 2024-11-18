@@ -8,8 +8,8 @@ import (
 	"image/png"
 	"os"
 
-	"github.com/hectorgimenez/d2go/pkg/data"
-	"github.com/hectorgimenez/koolo/internal/game"
+	"github.com/BFMVAUS/d2go/pkg/data"
+	"github.com/BFMVAUS/koolov2/internal/game"
 )
 
 func (pf *PathFinder) renderMap(grid *game.Grid, from, to data.Position, path Path) {

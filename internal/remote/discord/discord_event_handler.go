@@ -5,9 +5,9 @@ import (
 	"context"
 	"image/jpeg"
 
+	"github.com/BFMVAUS/koolov2/internal/config"
+	"github.com/BFMVAUS/koolov2/internal/event"
 	"github.com/bwmarrin/discordgo"
-	"github.com/hectorgimenez/koolo/internal/config"
-	"github.com/hectorgimenez/koolo/internal/event"
 )
 
 func (b *Bot) Handle(_ context.Context, e event.Event) error {

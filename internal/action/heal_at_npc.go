@@ -3,9 +3,9 @@ package action
 import (
 	"fmt"
 
-	"github.com/hectorgimenez/koolo/internal/action/step"
-	"github.com/hectorgimenez/koolo/internal/context"
-	"github.com/hectorgimenez/koolo/internal/town"
+	"github.com/BFMVAUS/koolov2/internal/action/step"
+	"github.com/BFMVAUS/koolov2/internal/context"
+	"github.com/BFMVAUS/koolov2/internal/town"
 )
 
 func HealAtNPC() error {

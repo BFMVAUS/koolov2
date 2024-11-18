@@ -1,6 +1,6 @@
 package game
 
-import "github.com/hectorgimenez/d2go/pkg/data"
+import "github.com/BFMVAUS/d2go/pkg/data"
 
 const (
 	CollisionTypeNonWalkable CollisionType = iota

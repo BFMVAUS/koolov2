@@ -3,20 +3,20 @@ package action
 import (
 	"slices"
 
-	"github.com/hectorgimenez/koolo/internal/action/step"
-	"github.com/hectorgimenez/koolo/internal/context"
-	"github.com/hectorgimenez/koolo/internal/game"
-	"github.com/hectorgimenez/koolo/internal/town"
-	"github.com/hectorgimenez/koolo/internal/ui"
-	"github.com/hectorgimenez/koolo/internal/utils"
+	"github.com/BFMVAUS/koolov2/internal/action/step"
+	"github.com/BFMVAUS/koolov2/internal/context"
+	"github.com/BFMVAUS/koolov2/internal/game"
+	"github.com/BFMVAUS/koolov2/internal/town"
+	"github.com/BFMVAUS/koolov2/internal/ui"
+	"github.com/BFMVAUS/koolov2/internal/utils"
 	"github.com/lxn/win"
 
-	"github.com/hectorgimenez/d2go/pkg/data"
-	"github.com/hectorgimenez/d2go/pkg/data/area"
-	"github.com/hectorgimenez/d2go/pkg/data/difficulty"
-	"github.com/hectorgimenez/d2go/pkg/data/npc"
-	"github.com/hectorgimenez/d2go/pkg/data/skill"
-	"github.com/hectorgimenez/d2go/pkg/data/stat"
+	"github.com/BFMVAUS/d2go/pkg/data"
+	"github.com/BFMVAUS/d2go/pkg/data/area"
+	"github.com/BFMVAUS/d2go/pkg/data/difficulty"
+	"github.com/BFMVAUS/d2go/pkg/data/npc"
+	"github.com/BFMVAUS/d2go/pkg/data/skill"
+	"github.com/BFMVAUS/d2go/pkg/data/stat"
 )
 
 var uiStatButtonPosition = map[stat.ID]data.Position{

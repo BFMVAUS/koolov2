@@ -9,7 +9,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/hectorgimenez/d2go/pkg/memory"
+	"github.com/BFMVAUS/d2go/pkg/memory"
 	"golang.org/x/sys/windows"
 )
 

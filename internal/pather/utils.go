@@ -5,10 +5,10 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/hectorgimenez/d2go/pkg/data"
-	"github.com/hectorgimenez/d2go/pkg/data/area"
-	"github.com/hectorgimenez/koolo/internal/game"
-	"github.com/hectorgimenez/koolo/internal/utils"
+	"github.com/BFMVAUS/d2go/pkg/data"
+	"github.com/BFMVAUS/d2go/pkg/data/area"
+	"github.com/BFMVAUS/koolov2/internal/game"
+	"github.com/BFMVAUS/koolov2/internal/utils"
 )
 
 func (pf *PathFinder) RandomMovement() {

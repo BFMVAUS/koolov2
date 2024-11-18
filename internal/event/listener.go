@@ -9,8 +9,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/hectorgimenez/koolo/internal/config"
-	"github.com/hectorgimenez/koolo/internal/utils"
+	"github.com/BFMVAUS/koolov2/internal/config"
+	"github.com/BFMVAUS/koolov2/internal/utils"
 )
 
 var events = make(chan Event)

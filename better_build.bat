@@ -164,7 +164,7 @@ if not exist build\tools (
 call :print_header "Building Koolo Binary"
 call :print_step "Compiling Koolo"
 if "%1"=="" (set VERSION=dev) else (set VERSION=%1)
-go build -trimpath -tags static --ldflags -extldflags="-static" -ldflags="-s -w -H windowsgui -X 'github.com/hectorgimenez/koolo/internal/config.Version=%VERSION%'" -o build/koolo.exe ./cmd/koolo
+go build -trimpath -tags static --ldflags -extldflags="-static" -ldflags="-s -w -H windowsgui -X 'github.com/BFMVAUS/koolov2/internal/config.Version=%VERSION%'" -o build/koolo.exe ./cmd/koolo
 if !errorlevel! equ 0 (
     call :print_success "Koolo binary successfully built at %cd%\build\koolo.exe"
 ) else (

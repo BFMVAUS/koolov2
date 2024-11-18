@@ -4,7 +4,7 @@ import (
 	"log/slog"
 	"time"
 
-	"github.com/hectorgimenez/koolo/internal/config"
+	"github.com/BFMVAUS/koolov2/internal/config"
 )
 
 type Scheduler struct {

@@ -3,8 +3,8 @@ package step
 import (
 	"errors"
 
-	"github.com/hectorgimenez/koolo/internal/context"
-	"github.com/hectorgimenez/koolo/internal/utils"
+	"github.com/BFMVAUS/koolov2/internal/context"
+	"github.com/BFMVAUS/koolov2/internal/utils"
 	"github.com/lxn/win"
 )
 

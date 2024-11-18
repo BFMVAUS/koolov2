@@ -1,7 +1,7 @@
 package ui
 
 import (
-	"github.com/hectorgimenez/koolo/internal/context"
+	"github.com/BFMVAUS/koolov2/internal/context"
 )
 
 func GameCoordsToScreenCords(destinationX, destinationY int) (int, int) {

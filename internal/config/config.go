@@ -6,18 +6,18 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/hectorgimenez/d2go/pkg/data"
+	"github.com/BFMVAUS/d2go/pkg/data"
 
 	"os"
 	"strings"
 
-	"github.com/hectorgimenez/d2go/pkg/data/area"
-	"github.com/hectorgimenez/d2go/pkg/data/difficulty"
-	"github.com/hectorgimenez/d2go/pkg/data/item"
-	"github.com/hectorgimenez/d2go/pkg/data/stat"
+	"github.com/BFMVAUS/d2go/pkg/data/area"
+	"github.com/BFMVAUS/d2go/pkg/data/difficulty"
+	"github.com/BFMVAUS/d2go/pkg/data/item"
+	"github.com/BFMVAUS/d2go/pkg/data/stat"
 	cp "github.com/otiai10/copy"
 
-	"github.com/hectorgimenez/d2go/pkg/nip"
+	"github.com/BFMVAUS/d2go/pkg/nip"
 
 	"gopkg.in/yaml.v3"
 )

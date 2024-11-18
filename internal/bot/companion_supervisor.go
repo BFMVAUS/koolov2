@@ -9,14 +9,14 @@ package bot
 //	"log/slog"
 //	"time"
 //
-//	"github.com/hectorgimenez/koolo/internal/action"
+//	"github.com/BFMVAUS/koolov2/internal/action"
 //
-//	"github.com/hectorgimenez/koolo/internal/container"
+//	"github.com/BFMVAUS/koolov2/internal/container"
 //
-//	"github.com/hectorgimenez/koolo/internal/config"
-//	"github.com/hectorgimenez/koolo/internal/event"
-//	"github.com/hectorgimenez/koolo/internal/helper"
-//	"github.com/hectorgimenez/koolo/internal/run"
+//	"github.com/BFMVAUS/koolov2/internal/config"
+//	"github.com/BFMVAUS/koolov2/internal/event"
+//	"github.com/BFMVAUS/koolov2/internal/helper"
+//	"github.com/BFMVAUS/koolov2/internal/run"
 //)
 //
 //type CompanionSupervisor struct {
