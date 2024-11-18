@@ -1,4 +1,4 @@
-module github.com/hectorgimenez/koolo
+module github.com/BFMVAUS/koolov2
 
 go 1.23
 
@@ -7,7 +7,7 @@ require (
 	github.com/bwmarrin/discordgo v0.28.1
 	github.com/go-telegram-bot-api/telegram-bot-api/v5 v5.5.1
 	github.com/gorilla/websocket v1.5.3
-	github.com/hectorgimenez/d2go v0.0.0-20241107125602-b2c710dc5c09
+	github.com/BFMVAUS/d2go v0.0.0-20241118010903-9fe14c00e7c5
 	github.com/inkeliz/gowebview v1.0.1
 	github.com/lxn/win v0.0.0-20210218163916-a377121e959e
 	github.com/otiai10/copy v1.14.0
